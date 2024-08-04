@@ -1,0 +1,20 @@
+{
+  "name": "learn-rxjs",
+  "version": "1.0.0",
+  "description": "what is reactive programming",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^22.1.0",
+    "rxjs": "^7.8.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
