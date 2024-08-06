@@ -6,7 +6,10 @@ import {postEpics} from "../02/post.epics.ts";
 
 const epicMiddleware = createEpicMiddleware();
 
-const rootEpic = combineEpics(counterEpic, postEpics);
+const rootEpic = combineEpics(
+    counterEpic,
+    postEpics
+);
 
 const midlewares: Middleware[] = [epicMiddleware];
 const store = configureStore({
